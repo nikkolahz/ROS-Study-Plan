@@ -20,6 +20,8 @@ e. Hydro <br/>
 
 Other compatibility details are available [here](https://www.ros.org/reps/rep-0003.html). <br/>
 ### 2. Core concepts
+2.a. ROS PC Setup <br/>
+
 
 
 ## ROS Industrial [site](https://industrial-training-master.readthedocs.io/en/melodic/)

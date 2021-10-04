@@ -30,5 +30,8 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 `$ sudo apt install <some cool linux scripts here>` <br/>
 2.d. Messages and Topics<br/>
 ## ROS Industrial [site](https://industrial-training-master.readthedocs.io/en/melodic/)
+* Follow the tutorials [here](https://industrial-training-master.readthedocs.io/en/melodic/)
+* Virtual box images for the supported distros [here]
+* Official github repository of exercises[here](https://github.com/ros-industrial/industrial_training/tree/foxy/exercises).
 
 

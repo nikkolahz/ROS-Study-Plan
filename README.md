@@ -57,4 +57,11 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 * Virtual box training images [here](https://rosi-images.datasys.swri.edu/).
 * Official github repository of exercises[here](https://github.com/ros-industrial/industrial_training/tree/foxy/exercises).
 
-
+## Reading List Topics
+* Motion Planning </br>
+* Controllers </br>
+* Modeling in Blender and file conversions for gazebo simulation </br>
+* API creation</br>
+* Supported communication networks in ROS? </br>
+* Sensors simulation </br>
+* Force Torques sensing </br>

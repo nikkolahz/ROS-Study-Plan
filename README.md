@@ -22,8 +22,13 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 ### 2. Core concepts
 2.a. ROS PC Setup <br/>
 
+`$ sudo apt install <some cool linux scripts here>`
 
-
+2.b. Environment configuration <br/>
+`$ sudo apt install <some cool linux scripts here>`
+2.c. Catkin work space and packages <br/>
+`$ sudo apt install <some cool linux scripts here>`
+2.d. Messages and Topics
 ## ROS Industrial [site](https://industrial-training-master.readthedocs.io/en/melodic/)
 
 

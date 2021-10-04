@@ -41,11 +41,15 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 
 ### 4. Modeling custom robots
 4.a. Frames, links and joints </br>
+* MIT Resource explaination. ([link](https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/lecture-notes/chapter3.pdf)).</br>
+* Yoskawa Glossary of Robot terms ([link](https://www.motoman.com/en-us/about/company/robotics-glossary)). </br>
+
 4.b. URDF </br>
 4.c. xacro </br>
 4.d. Launching to rViz </br>
 4.e. Launching to gazebo </br>
 4.f. Controllers </br>
+4.g. Config files
 
 
 ## ROS Industrial [site](https://industrial-training-master.readthedocs.io/en/melodic/)

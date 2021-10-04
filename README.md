@@ -25,10 +25,10 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 `$ sudo apt install <some cool linux scripts here>`
 
 2.b. Environment configuration <br/>
-`$ sudo apt install <some cool linux scripts here>`
+`$ sudo apt install <some cool linux scripts here>` <br/>
 2.c. Catkin work space and packages <br/>
-`$ sudo apt install <some cool linux scripts here>`
-2.d. Messages and Topics
+`$ sudo apt install <some cool linux scripts here>` <br/>
+2.d. Messages and Topics<br/>
 ## ROS Industrial [site](https://industrial-training-master.readthedocs.io/en/melodic/)
 
 

@@ -29,6 +29,25 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 2.c. Catkin work space and packages <br/>
 `$ sudo apt install <some cool linux scripts here>` <br/>
 2.d. Messages and Topics<br/>
+2.e. File Structure </br>
+2.f. Launching complex applications </br>
+2.g. Visualizations </br>
+
+### 3. Commonly used packages and use cases
+3.a. move_group </b>
+3.b. rviz? </b>
+3.c. moveit? </b>
+3.d. tf </b>
+
+### 4. Modeling custom robots
+4.a. Frames, links and joints </br>
+4.b. URDF </br>
+4.c. xacro </br>
+4.d. Launching to rViz </br>
+4.e. Launching to gazebo </br>
+4.f. Controllers </br>
+
+
 ## ROS Industrial [site](https://industrial-training-master.readthedocs.io/en/melodic/)
 * Follow the tutorials [here](https://industrial-training-master.readthedocs.io/en/melodic/)
 * Virtual box training images [here](https://rosi-images.datasys.swri.edu/).

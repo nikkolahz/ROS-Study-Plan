@@ -36,7 +36,7 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
   sudo apt install curl # if you haven't already installed curl
   curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
   ```
-  * Making sure debian packga index is updated:
+  * Making sure debian package index is updated:
   ```
   sudo apt update
   ```

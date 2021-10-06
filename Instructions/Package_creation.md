@@ -44,4 +44,4 @@ source ~/catkin_ws/devel/setup.bash
 ```
 Screenshot is found here:  
 ![alt-text](../images/package_build.PNG?raw=True) 
-
+As shown, a success message will be displayed if everything is fine.

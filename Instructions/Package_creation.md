@@ -16,5 +16,5 @@ catkin_create_package myworkcell_core rospy roscpp std_msgs
 ```
 The above command creates a package named: <b>myworkcell_core</b>.
 This then automatically includes the dependecy packages <b>rospy, roscpp and std_msgs</b> in the manifests.
-[alt-text](images/package_creation.PNG?raw=True)
+[alt-text](../images/package_creation.PNG?raw=True)
 ## Common File structure:

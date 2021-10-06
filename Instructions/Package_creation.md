@@ -42,3 +42,6 @@ To continue running the buils application, make sure to perform local source com
 source ~/catkin_ws/devel/setup.bash
 
 ```
+Screenshot is found here:  
+![alt-text](../images/package_build.PNG?raw=True) 
+

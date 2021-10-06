@@ -21,4 +21,4 @@ Inside the created package.xml manifest:
   ![alt-text](../images/pkg_xml.PNG?raw=True)  
 Inside the created CMakeLists.txt local to the package:  
   ![alt-text](../images/pkg_makefile.PNG?raw=True)  
-## Common File structure:
+### Scripts and codes can now be created inside the package's src folder.

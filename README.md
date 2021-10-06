@@ -89,6 +89,42 @@ At this point your environment should be ready. If some troubles are encountered
   ```
   source devel/setup.bash
   ```
+ * Creating a catkin package:
+ The catkin workspace file structure is: 
+ ```
+ catkin_ws/
+  src/
+    CMakeLists.txt
+    package_1/
+      CMakelists.txt   # This is a local CMake file
+      package.xml      # Local package manifest
+      src/
+       some_program.cpp
+       some_program.py
+      srv/
+       some_service_files.srv
+      support/
+       some_launch_file.launch
+      urdf/
+       some_robot_models.urdf
+       some_robot_models.xacro
+     config/
+ 
+ ....
+    package_2/
+      CMakeLists.txt
+      package.xml
+    src/
+    ....
+ ```
+ To create a package</br>
+ ```
+ cd ~/catkin_ws  #replace this if workspace has different name
+ catkin_create_pkg <package_name> [depend1] [depend2] [depend3] 
+ # package name - identifier for your package
+ # depend (1-3) are any dependency ros package for your project ex: rospy, roscpp, std_msgs ets
+ ```
+ The CMakelists.txt and package.xml will be generated from this command. Other directories and file structuring must be done with your discretion.
 2.d. Messages and Topics<br/>
 ```
 $<multi-lin codes>

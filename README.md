@@ -23,32 +23,40 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 > We will be setting up environment for ROS in Ubuntu OS on a PC.
 #### 2.a. ROS PC Setup <br/>
 > It is advisable to have a running Ububtu OS on the PC rather than a virtual box due to some performance limitations. This can be done by dual booting. However, some tutorials like that in ROS industrial has available virtual images (can be run in Oracle Virtualbox) which can be used for training.
-#### i. Installation:</br>
-* Setup the sources.list and setting up the keys:
-```
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-sudo apt install curl # if you haven't already installed curl
-curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-```
-* Making sure debian packga index is updated:
-```
-sudo apt update
-```
-* Installing the required variant: Replace <ros-distro> with the appropriate version ex: noetic/melodic. Always check compatibility with ubutu version!!
-```
-#Full desktop install with Visualization tools (recommended)
-  sudo apt install ros-<ros-distro>-desktop-full 
+  * Setup the sources.list and setting up the keys:
+  ```
+  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  sudo apt install curl # if you haven't already installed curl
+  curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+  ```
+  * Making sure debian packga index is updated:
+  ```
+  sudo apt update
+  ```
+  * Installing the required variant: Replace <ros-distro> with the appropriate version ex: noetic/melodic. Always check compatibility with ubutu version!!
+  ```
+  #Full desktop install with Visualization tools (recommended)
+    sudo apt install ros-<ros-distro>-desktop-full 
   
-# Minimal Desktop version
-  sudo apt install ros-melodic-desktop
+  # Minimal Desktop version
+    sudo apt install ros-melodic-desktop
 
-# Bare-bones with no GUI
-  sudo apt install ros-melodic-ros-base
+  # Bare-bones with no GUI
+    sudo apt install ros-melodic-ros-base
   
-# individual package: Replace PACKAGE with vaid package names
-  sudo apt install ros-melodic-PACKAGE
-```
+  # individual package: Replace PACKAGE with vaid package names
+    sudo apt install ros-melodic-PACKAGE
+  ```
 2.b. Environment configuration <br/>
+  * Sourcing the setup.bash foe use in the bash session. Note: Replace <ros-distro> with correct installed version: e.g. noetic, melodic etc.
+  ```
+  echo "source /opt/ros/<ros-distro>/setup.bash" >> ~/.bashrc
+  source ~/.bashrc
+  ```
+  * To change environment of current shell:
+  ```
+  ource /opt/ros/<ros-distro>/setup.bash
+  ```
 `$ sudo apt install <some cool linux scripts here>` <br/>
 2.c. Catkin work space and packages <br/>
 `$ sudo apt install <some cool linux scripts here>` <br/>

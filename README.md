@@ -2,8 +2,13 @@
 # Study Plan
 Study Plan for use of Robotics Operating System ROS 
 The objective of this is to collate the basic instructions and references for learning the ins and outs of the ROS platform:  
-[PC setup](#2-ros-pc-setup)
-
+* [Elementary concepts](#elementary-concepts)
+* [Compatibilities and distros](#1-compatibilities-and-distributions)
+* [PC setup](#2-ros-pc-setup)
+* [ROS core concepts](#3-ros-core-concepts)
+* [Robot Modelling](#4-modeling-custom-robots)
+* [Robot Simulation]
+* [Use Cases]
 ## Elementary concepts 
 * [C++](https://www.micc.unifi.it/bertini/download/programmazione/TICPP-2nd-ed-Vol-one-printed.pdf)<br/>
 * [python](https://www.youtube.com/playlist?list=PLjgj6kdf_snaw8QnlhK5f3DzFDFKDU5f4)<br/>
@@ -122,7 +127,7 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 ### 2.c.Creating a package  
 Packages are the basic components of a ROS application. Instructions for package creation is found [here](/Instructions/Package_creation.md).    
  
-## 3. ROS Core cocepts  
+## 3. ROS Core concepts  
  2.d. Messages and Topics<br/>
 ```
 $<multi-lin codes>

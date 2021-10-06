@@ -1,4 +1,4 @@
-![alt-teext](https://github.com/nikkolahz/ROS-Study-Plan/blob/main/images/ros.png?raw=True)</br>
+![alt-text](https://github.com/nikkolahz/ROS-Study-Plan/blob/main/images/ros.png?raw=True)</br>
 # Study Plan
 >Study Plan for use of Robotics Operating System ROS</br>
 [Link](MarkDownFiles/Dummy.md)</br>

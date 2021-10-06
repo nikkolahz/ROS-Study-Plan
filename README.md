@@ -1,5 +1,5 @@
 ![alt-teext](https://github.com/nikkolahz/ROS-Study-Plan/blob/main/images/ros.png?raw=True)</br>
-# ROS-Study-Plan
+# Study Plan
 >Study Plan for use of Robotics Operating System ROS
 
 ## Elementary concepts 

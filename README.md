@@ -84,7 +84,9 @@ At this point your environment should be ready. If some troubles are encountered
   cd ~/catkin_ws/
   catkin_make
   ```
- You shoud be able to confirm that workspace is initialized with 'build' and 'devel' folders. </br>
+ ![alt-text](images/catkin_make1.PNG?raw=True)  
+ You shoud be able to confirm that workspace is initialized with 'build' and 'devel' folders.  
+ ![alt-text](images/catkin_make2.PNG?raw=True)  
  * Source your new local bash file for properly overlaying the current workspace.
   ```
   source devel/setup.bash

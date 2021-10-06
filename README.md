@@ -21,7 +21,7 @@
 Other compatibility details are available [here](https://www.ros.org/reps/rep-0003.html). <br/>
 ### 2. Core concepts
 > We will be setting up environment for ROS in Ubuntu OS on a PC.
----
+
 #### 2.a. ROS PC Setup <br/>
 > It is advisable to have a running Ububtu OS on the PC rather than a virtual box due to some performance limitations. This can be done by dual booting. However, some tutorials like that in ROS industrial has available virtual images (can be run in Oracle Virtualbox) which can be used for training.
   * Setup the sources.list and setting up the keys:
@@ -48,8 +48,9 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
   # individual package: Replace PACKAGE with vaid package names
     sudo apt install ros-<ros-distro>-PACKAGE
   ```
----
+
 #### 2.b. Environment configuration <br/>
+
   * Sourcing the setup.bash foe use in the bash session. Note: Replace <ros-distro> with correct installed version: e.g. noetic, melodic etc.
   ```
   echo "source /opt/ros/<ros-distro>/setup.bash" >> ~/.bashrc
@@ -64,18 +65,29 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
  #This command installs the packages: python-rosdep; python-rosinstall-generator etc.
   sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
  ```
-> At this point your environment should be ready. If some troubles are encountered in setting up, check the tutorial steps in this [link](http://wiki.ros.org/melodic/Installation/Ubuntu). </br>
- ---
+ * Initialize rosdep. This is a command-line tool for installing system dependencies
+ ```
+ sudo rosdep init
+ rosdep update
+ ```
+At this point your environment should be ready. If some troubles are encountered in setting up, check the tutorial steps in this [link](http://wiki.ros.org/melodic/Installation/Ubuntu). </br>
+
 #### 2.c. Catkin work space and packages <br/>
- * Instruction heading 1
+ * Creating a workspace. Note: Replace <ros-distro> with the appropriate version ex: noetic/melodic.
   ```
-  <Some lunix commands here>
+  # First source youor setup.bash
+  source /opt/ros/<ros-distro>/setup.bash
+ 
+  # Create a catkin workspace
+  mkdir -p ~/catkin_ws/src
+  cd ~/catkin_ws/
+  catkin_make
   ```
- * Instruction heading 2
+ You shoud be able to confirm that workspace is initialized with 'build' and 'devel' folders. </br>
+ * Source your new local bash file for properly overlaying the current workspace.
   ```
-  <Some awesome linux comands>
+  source devel/setup.bash
   ```
- ---
 2.d. Messages and Topics<br/>
 ```
 $<multi-lin codes>

@@ -8,7 +8,11 @@ The objective of this is to collate the basic instructions and references for le
 * [ROS core concepts](#3-ros-core-concepts)
 * [Robot Modelling](#4-modeling-custom-robots)
 * [Robot Simulation]
-* [Use Cases]
+* [Use Cases]  
+> Before robot operating systems, every robot designer and robotics researcher would spend considerable amounts of time designing the embedded software within a robot, as well as the hardware itself. This required skills in mechanical engineering, electronics and embedded programming. Typically, the programs engineered in this way were more akin to embedded programming, similar to electronics, than they were to robotics in the strictest sense, such as we might encounter it nowadays in service robotics. There was considerable re-use of programs, as they were strongly linked to the underlying hardware.  
+The main idea of a robotics OS is to avoid continuously reinventing the wheel, and to offer standardised functionalities performing hardware abstraction, just like a conventional OS for PCs, hence the analogous name.  
+--Source: generationrobots.com [article](https://www.generationrobots.com/blog/en/ros-robot-operating-system-2/)
+
 ## Elementary concepts 
 * [C++](https://www.micc.unifi.it/bertini/download/programmazione/TICPP-2nd-ed-Vol-one-printed.pdf)<br/>
 * [python](https://www.youtube.com/playlist?list=PLjgj6kdf_snaw8QnlhK5f3DzFDFKDU5f4)<br/>

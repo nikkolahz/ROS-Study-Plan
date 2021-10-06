@@ -133,39 +133,11 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 Packages are the basic components of a ROS application. Instructions for package creation is found [here](/Instructions/Package_creation.md).    
  
 ## 3. ROS Core concepts  
-* [ROS Nodes](#3a-ros-nodes)
-* [Messages](#3b-messages)
-* [Services](#3c-services)
-* [Launching Applications](#3d-launching-applications)
-* [Visualizations and Simulation](#3e-visualizations)
-
-### 3.a. ROS Nodes  
-
-### 3.b. Messages  
-```
-$<multi-lin codes>
-$<multi-lin codes>
-$<multi-lin codes>
-```
-### 3.c. Services  
-```
-$<multi-lin codes>
-$<multi-lin codes>
-$<multi-lin codes>
-```
-
-### 3.d. Launching Applications  
-```
-$<multi-lin codes>
-$<multi-lin codes>
-$<multi-lin codes>
-```
-### 3.e. Visualizations </br>
-```
-$<multi-lin codes>
-$<multi-lin codes>
-$<multi-lin codes>
-```
+* [ROS Nodes](/Package_md/Common_packages.md#ros-nodes)
+* [Messages](/Package_md/Common_packages.md#messages)
+* [Services](/Package_md/Common_packages.md#services)
+* [Launching Applications](/Package_md/Common_packages.md#launching-applications)
+* [Visualizations and Simulation](/Package_md/Common_packages.md#visualizations-and-simulations)
 ### 4. Common Packages
 3.a. move_group </b>
 3.b. rviz? </b>

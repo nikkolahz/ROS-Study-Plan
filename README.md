@@ -119,7 +119,7 @@ At this point your environment should be ready. If some troubles are encountered
     src/
     ....
  ```
-### [2.d. Creating a package](/Instructions/Package_creation.md)  
+### 2.d.[Creating a package](/Instructions/Package_creation.md)  
 2.d. Messages and Topics<br/>
 ```
 $<multi-lin codes>

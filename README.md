@@ -1,7 +1,7 @@
 ![alt-teext](https://github.com/nikkolahz/ROS-Study-Plan/blob/main/images/ros.png?raw=True)</br>
 # Study Plan
->Study Plan for use of Robotics Operating System ROS
-
+>Study Plan for use of Robotics Operating System ROS</br>
+[Link](Dummy.md)</br>
 ## Elementary concepts 
 * [C++](https://www.micc.unifi.it/bertini/download/programmazione/TICPP-2nd-ed-Vol-one-printed.pdf)<br/>
 * [python](https://www.youtube.com/playlist?list=PLjgj6kdf_snaw8QnlhK5f3DzFDFKDU5f4)<br/>

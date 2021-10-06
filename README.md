@@ -65,3 +65,9 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 * Supported communication networks in ROS? </br>
 * Sensors simulation </br>
 * Force Torques sensing </br>
+
+## Interesting use-cases:
+* Multi -robot systems (swarm robotics) ? </br>
+* Collaborative Robotics </br>
+* Integration with Machine Vision and deep learning </br>
+* Simultaneous Localization and Mapping </br>

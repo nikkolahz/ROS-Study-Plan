@@ -6,7 +6,8 @@ The objective of this is to collate the basic instructions and references for le
 * [Compatibilities and distros](#1-compatibilities-and-distributions)
 * [PC setup](#2-ros-pc-setup)
 * [ROS core concepts](#3-ros-core-concepts)
-* [Robot Modelling](#4-modeling-custom-robots)
+* [Commonly used packages](#4-common-packages)
+* [Robot Modelling](#5-modeling-custom-robots)
 * [Robot Simulation]
 * [Use Cases]  
 > Before robot operating systems, every robot designer and robotics researcher would spend considerable amounts of time designing the embedded software within a robot, as well as the hardware itself. This required skills in mechanical engineering, electronics and embedded programming. Typically, the programs engineered in this way were more akin to embedded programming, similar to electronics, than they were to robotics in the strictest sense, such as we might encounter it nowadays in service robotics. There was considerable re-use of programs, as they were strongly linked to the underlying hardware.  
@@ -165,13 +166,13 @@ $<multi-lin codes>
 $<multi-lin codes>
 $<multi-lin codes>
 ```
-### 3. Commonly used packages and use cases
+### 4. Common Packages
 3.a. move_group </b>
 3.b. rviz? </b>
 3.c. moveit? </b>
 3.d. tf </b>
 
-### 4. Modeling custom robots
+### 5. Modeling custom robots
 4.a. Frames, links and joints </br>
 * MIT Resource explaination. ([link](https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/lecture-notes/chapter3.pdf)).</br>
 * Yoskawa Glossary of Robot terms ([link](https://www.motoman.com/en-us/about/company/robotics-glossary)). </br>

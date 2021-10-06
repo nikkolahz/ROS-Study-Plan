@@ -29,10 +29,29 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 2.c. Catkin work space and packages <br/>
 `$ sudo apt install <some cool linux scripts here>` <br/>
 2.d. Messages and Topics<br/>
+```
+$<multi-lin codes>
+$<multi-lin codes>
+$<multi-lin codes>
+```
 2.e. File Structure </br>
+```
+$<multi-lin codes>
+$<multi-lin codes>
+$<multi-lin codes>
+```
 2.f. Launching complex applications </br>
+```
+$<multi-lin codes>
+$<multi-lin codes>
+$<multi-lin codes>
+```
 2.g. Visualizations </br>
-
+```
+$<multi-lin codes>
+$<multi-lin codes>
+$<multi-lin codes>
+```
 ### 3. Commonly used packages and use cases
 3.a. move_group </b>
 3.b. rviz? </b>

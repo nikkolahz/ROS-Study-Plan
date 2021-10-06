@@ -20,8 +20,10 @@
 
 Other compatibility details are available [here](https://www.ros.org/reps/rep-0003.html). <br/>
 ### 2. Core concepts
-2.a. ROS PC Setup <br/>
-
+> We will be setting up environment for ROS in Ubuntu OS on a PC.
+#### 2.a. ROS PC Setup <br/>
+> It is advisable to have a running Ububtu OS on the PC rather than a virtual box due to some performance limitations. This can be done by dual booting. However, some tutorials like that in ROS industrial has available virtual images (can be run in Oracle Virtualbox) which can be used for training.
+#### i.  getting the ROS distribution:</br>
 `$ sudo apt install <some cool linux scripts here>`
 
 2.b. Environment configuration <br/>

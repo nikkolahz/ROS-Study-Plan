@@ -117,14 +117,7 @@ At this point your environment should be ready. If some troubles are encountered
     src/
     ....
  ```
- To create a package</br>
- ```
- cd ~/catkin_ws  #replace this if workspace has different name
- catkin_create_pkg <package_name> [depend1] [depend2] [depend3] 
- # package name - identifier for your package
- # depend (1-3) are any dependency ros package for your project ex: rospy, roscpp, std_msgs ets
- ```
- The CMakelists.txt and package.xml will be generated from this command. Other directories and file structuring must be done with your discretion.
+### 2.d. Creating a package is found in this [Link](/Instructions/Package_creation.md)  
 2.d. Messages and Topics<br/>
 ```
 $<multi-lin codes>

@@ -44,7 +44,7 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
   ```
   sudo apt update
   ```
-  * Installing the required variant: Replace <ros-distro> with the appropriate version ex: noetic/melodic. Always check compatibility with ubutu version!!
+  * Installing the required variant: Replace `<ros-distro>` with the appropriate version ex: noetic/melodic. Always check compatibility with ubutu version!!
   ```
   #Full desktop install with Visualization tools (recommended)
     sudo apt install ros-<ros-distro>-desktop-full 
@@ -61,7 +61,7 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 
 #### 2.a. Environment configuration <br/>
 
-  * Sourcing the setup.bash foe use in the bash session. Note: Replace <ros-distro> with correct installed version: e.g. noetic, melodic etc.
+  * Sourcing the setup.bash foe use in the bash session. Note: Replace `<ros-distro>` with correct installed version: e.g. noetic, melodic etc.
   ```
   echo "source /opt/ros/<ros-distro>/setup.bash" >> ~/.bashrc
   source ~/.bashrc
@@ -83,7 +83,7 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
  At this point your environment should be ready. If some troubles are encountered in setting up, check the tutorial steps in this [link](http://wiki.ros.org/melodic/Installation/Ubuntu). </br>
 
 #### 2.b. Catkin work space and packages <br/>
- * Creating a workspace. Note: Replace <ros-distro> with the appropriate version ex: noetic/melodic.
+ * Creating a workspace. Note: Replace `<ros-distro>` with the appropriate version ex: noetic/melodic.
   ```
   # First source youor setup.bash
   source /opt/ros/<ros-distro>/setup.bash

@@ -1,6 +1,8 @@
 ![alt-text](https://github.com/nikkolahz/ROS-Study-Plan/blob/main/images/ros.png?raw=True)</br>
 # Study Plan
->Study Plan for use of Robotics Operating System ROS</br>
+Study Plan for use of Robotics Operating System ROS 
+The objective of this is to collate the basic instructions and references for learning the ins and outs of the ROS platform:  
+[PC setup](#2-ros-pc-setup)
 
 ## Elementary concepts 
 * [C++](https://www.micc.unifi.it/bertini/download/programmazione/TICPP-2nd-ed-Vol-one-printed.pdf)<br/>

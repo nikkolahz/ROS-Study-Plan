@@ -20,11 +20,9 @@
 * Hydro <br/>
 
 Other compatibility details are available [here](https://www.ros.org/reps/rep-0003.html). <br/>
-### 2. Core concepts
-> We will be setting up environment for ROS in Ubuntu OS on a PC.
+### 2. ROS PC Setup
+ It is advisable to have a running Ubuntu OS on the PC rather than a virtual box due to some performance limitations. This can be done by dual booting. However, some tutorials like that in ROS industrial has available virtual images (can be run in Oracle Virtualbox) which can be used for training.  
 
-#### 2.a. ROS PC Setup <br/>
-> It is advisable to have a running Ububtu OS on the PC rather than a virtual box due to some performance limitations. This can be done by dual booting. However, some tutorials like that in ROS industrial has available virtual images (can be run in Oracle Virtualbox) which can be used for training.
   * Setup the sources.list and setting up the keys:
   ```
   sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -50,7 +48,7 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
     sudo apt install ros-<ros-distro>-PACKAGE
   ```
 
-#### 2.b. Environment configuration <br/>
+#### 2.a. Environment configuration <br/>
 
   * Sourcing the setup.bash foe use in the bash session. Note: Replace <ros-distro> with correct installed version: e.g. noetic, melodic etc.
   ```
@@ -71,9 +69,9 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
  sudo rosdep init
  rosdep update
  ```
-At this point your environment should be ready. If some troubles are encountered in setting up, check the tutorial steps in this [link](http://wiki.ros.org/melodic/Installation/Ubuntu). </br>
+ At this point your environment should be ready. If some troubles are encountered in setting up, check the tutorial steps in this [link](http://wiki.ros.org/melodic/Installation/Ubuntu). </br>
 
-#### 2.c. Catkin work space and packages <br/>
+#### 2.b. Catkin work space and packages <br/>
  * Creating a workspace. Note: Replace <ros-distro> with the appropriate version ex: noetic/melodic.
   ```
   # First source youor setup.bash
@@ -119,8 +117,11 @@ At this point your environment should be ready. If some troubles are encountered
     src/
     ....
  ```
-### 2.d.[Creating a package](/Instructions/Package_creation.md)  
-2.d. Messages and Topics<br/>
+### 2.c.Creating a package  
+Packages are the basic components of a ROS application. Instructions for package creation is found [here](/Instructions/Package_creation.md).    
+ 
+## 3. ROS Core cocepts  
+ 2.d. Messages and Topics<br/>
 ```
 $<multi-lin codes>
 $<multi-lin codes>

@@ -139,10 +139,11 @@ Packages are the basic components of a ROS application. Instructions for package
 * [Launching Applications](/Package_md/Common_packages.md#launching-applications)
 * [Visualizations and Simulation](/Package_md/Common_packages.md#visualizations-and-simulations)
 ### 4. Common Packages
-3.a. move_group </b>
-3.b. rviz? </b>
-3.c. moveit? </b>
-3.d. tf </b>
+* [roscore]  
+* [std_msgs]  
+* [rospy]  
+* [roscpp]  
+* [tf]  
 
 ### 5. Modeling custom robots
 4.a. Frames, links and joints </br>

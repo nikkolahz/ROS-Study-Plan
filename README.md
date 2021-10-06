@@ -133,17 +133,16 @@ Other compatibility details are available [here](https://www.ros.org/reps/rep-00
 Packages are the basic components of a ROS application. Instructions for package creation is found [here](/Instructions/Package_creation.md).    
  
 ## 3. ROS Core concepts  
-* [ROS Nodes](/Package_md/Common_packages.md#ros-nodes)
-* [Messages](/Package_md/Common_packages.md#messages)
-* [Services](/Package_md/Common_packages.md#services)
-* [Launching Applications](/Package_md/Common_packages.md#launching-applications)
-* [Visualizations and Simulation](/Package_md/Common_packages.md#visualizations-and-simulations)
+* [ROS Nodes](/Instructions/Core_concepts.md#ros-nodes)
+* [Messages](/Instructions/Core_concepts.md#messages)
+* [Services](/Instructions/Core_concepts.md#services)
+* [Launching Applications](/Instructions/Core_concepts.md#launching-applications)
+* [Visualizations and Simulation](/Instructions/Core_concepts.md#visualizations-and-simulations)
 ### 4. Common Packages
-* [roscore]  
-* [std_msgs]  
-* [rospy]  
-* [roscpp]  
-* [tf]  
+3.a. move_group </b>
+3.b. rviz? </b>
+3.c. moveit? </b>
+3.d. tf </b>
 
 ### 5. Modeling custom robots
 4.a. Frames, links and joints </br>

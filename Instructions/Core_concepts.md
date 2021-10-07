@@ -24,7 +24,7 @@ rosnode cleanup # Not advised to be used in normal operation
 ```
 A more detailed discussion is found [here](http://wiki.ros.org/Nodes).
 
-## Messages  
+## Topics
 ```
 This is a sample multi0line code block
 ```

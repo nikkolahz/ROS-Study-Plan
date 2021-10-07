@@ -134,7 +134,7 @@ Packages are the basic components of a ROS application. Instructions for package
  
 ## 3. ROS Core concepts  
 * [ROS Nodes](/Instructions/Core_concepts.md#ros-nodes)
-* [Messages](/Instructions/Core_concepts.md#messages)
+* [Messages](/Instructions/Core_concepts.md#topics)
 * [Services](/Instructions/Core_concepts.md#services)
 * [Launching Applications](/Instructions/Core_concepts.md#launching-applications)
 * [Visualizations and Simulation](/Instructions/Core_concepts.md#visualizations-and-simulations)
